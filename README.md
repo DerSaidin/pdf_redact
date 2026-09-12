@@ -4,6 +4,13 @@ A command-line tool that redacts all alphanumeric content from a PDF file while 
 
 **Purpose:** produce redacted copies of real-world PDFs that can be safely shared as public test fixtures for PDF parsing libraries.
 
+> [!CAUTION]
+> 1) This is vibe coded.
+> 2) PDF is a complex format, and I only tested on a couple of example documents. It is very possible some place carrying content is not redacted.
+> 3) Does not (currently) redact images.
+>
+> Do not trust this tool alone. You should verify that no information you care about leaked into the output.
+
 ## How it works
 
 Every alphanumeric character is replaced 1-to-1 with a neutral placeholder:
