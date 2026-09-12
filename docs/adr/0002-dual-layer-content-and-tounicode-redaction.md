@@ -1,0 +1,3 @@
+# Dual-Layer Content and ToUnicode Redaction
+
+PDF text extraction relies on font `/ToUnicode` CMaps to convert content stream character codes into Unicode text, whereas low-level parsers inspect raw string tokens in operators like `Tj` and `TJ`. Redacting only content stream strings causes subsetted font lookups to break or yield unexpected characters, while redacting only `/ToUnicode` leaves raw stream tokens in plaintext. We apply dual-layer redaction across both content stream string operands and font `/ToUnicode` CMap tables, ensuring test fixtures work accurately for both parser layers without altering font program files.

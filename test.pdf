@@ -1,0 +1,109 @@
+%PDF-1.4
+1 0 obj
+<</Type /Catalog /Pages 2 0 R /Metadata 6 0 R>>
+endobj
+2 0 obj
+<</Type /Pages /Kids [3 0 R] /Count 1>>
+endobj
+3 0 obj
+<</Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources <</Font <</F1 5 0 R>> /XObject <</Im0 8 0 R>>>>>>
+endobj
+4 0 obj
+<</Length 81>>
+stream
+BT /F1 12 Tf 100 700 Td (Hello World 123!) Tj ET
+q 96 0 0 96 100 500 cm /Im0 Do Q
+endstream
+endobj
+5 0 obj
+<</Type /Font /Subtype /Type1 /BaseFont /Helvetica>>
+endobj
+6 0 obj
+<</Type /Metadata /Subtype /XML /Length 1665>>
+stream
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c001 79.14ecb42">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+   xmp:CreatorTool="Adobe Photoshop CS6 (Macintosh)"
+   xmp:CreateDate="2014-05-06T15:35:09+10:00"
+   xmp:ModifyDate="2014-05-14T10:09:53+10:00"
+   xmp:MetadataDate="2014-05-14T10:09:53+10:00"
+   xmpMM:DocumentID="uuid:0D53A7FF7158DD11B20FE126ED3FD217"
+   xmpMM:InstanceID="xmp.iid:B5E5FB12FCDAE3118503D596A6291136"
+   xmpMM:OriginalDocumentID="xmp.did:7969F9A5A42468118083ECF6591461FD"
+   photoshop:ColorMode="1"
+   photoshop:ICCProfile="Dot Gain 20%">
+   <dc:title>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Secret Rates Document 42</rdf:li>
+    </rdf:Alt>
+   </dc:title>
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:7969F9A5A42468118083ECF6591461FD"
+      stEvt:when="2014-05-06T15:35:09+10:00"
+      stEvt:softwareAgent="Adobe Photoshop CS6 (Macintosh)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:B5E5FB12FCDAE3118503D596A6291136"
+      stEvt:when="2014-05-14T10:09:53+10:00"
+      stEvt:softwareAgent="Adobe Photoshop CS6 (Windows)"
+      stEvt:changed="/"/>
+    </rdf:Seq>
+   </xmpMM:History>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>
+endstream
+endobj
+7 0 obj
+<</Creator (My Report Generator 9.1 x86-64) /CreationDate (D:20140506153509+10'00') /Author (Prepared by: Foo Finance) /Title (Stuff 2014)>>
+endobj
+8 0 obj
+<</Type /XObject /Subtype /Image /Width 4 /Height 4 /ColorSpace /DeviceGray /BitsPerComponent 8 /Metadata 9 0 R /Length 16>>
+stream
+Bc19Zz0Aa5Xy3De7
+endstream
+endobj
+9 0 obj
+<</Type /Metadata /Subtype /XML /Length 399>>
+stream
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+   tiff:ImageWidth="733"
+   tiff:ImageLength="734"
+   tiff:XResolution="3000000/10000"/>
+ </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000072 00000 n 
+0000000127 00000 n 
+0000000271 00000 n 
+0000000400 00000 n 
+0000000468 00000 n 
+0000002213 00000 n 
+0000002369 00000 n 
+0000002543 00000 n 
+trailer
+<</Size 10 /Root 1 0 R /Info 7 0 R>>
+startxref
+3021
+%%EOF
