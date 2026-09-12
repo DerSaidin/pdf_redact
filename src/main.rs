@@ -625,14 +625,26 @@ fn redact_content_stream(doc: &mut Document, stream_id: ObjectId, uncompressed: 
     }
 
     match content.encode() {
-        Ok(encoded) => {
+        // lopdf's content-stream encoder cannot round-trip inline images (`BI`/
+        // `ID`/`EI`): it serialises the operand as a generic PDF stream object
+        // instead of the special inline-image syntax, which other content-stream
+        // parsers (including lopdf itself) then fail to read back. `decode`
+        // (non-strict) silently ignores trailing bytes it can't parse, so it
+        // won't catch this — use `decode_strict`, which requires the whole
+        // buffer to parse, to verify the encoded bytes are actually safe before
+        // trusting them. If not, leave this stream's original bytes untouched
+        // rather than emit a PDF that downstream tools can't open.
+        Ok(encoded) if Content::decode_strict(&encoded).is_ok() => {
             stream.set_plain_content(encoded);
             if !uncompressed {
                 let _ = stream.compress();
             }
         }
-        Err(_) => {
-            // Encoding failed — restore original bytes.
+        _ => {
+            eprintln!(
+                "warning: content stream {stream_id:?} could not be safely re-encoded \
+                 (likely an inline image) — leaving it un-redacted to avoid corrupting the PDF"
+            );
             stream.set_plain_content(raw);
         }
     }

@@ -105,5 +105,6 @@ Domain terminology is defined in [`CONTEXT.md`](CONTEXT.md).
 ## Limitations
 
 - **Embedded raster images are not touched.** If the source PDF contains images of text (e.g. scanned pages), those pixels are preserved as-is.
+- **Content streams containing inline images (`BI`/`ID`/`EI`) are left entirely un-redacted.** lopdf cannot round-trip inline images through its content-stream encoder, so `pdf-redact` detects this and skips text redaction for the whole stream rather than emit a corrupted PDF. A warning is printed to stderr when this happens.
 - **Encrypted PDFs with non-empty passwords** are not supported; the tool exits with an error.
 - **Incremental updates** in PDFs are fully decoded and re-written as a linearised document — the on-disk incremental structure is not preserved.
